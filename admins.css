@@ -1,0 +1,58 @@
+.b-clubs-menu .admin .b-user[id='844199'] .name::after {
+    content: 'Оками 狼';
+}
+.b-clubs-menu .admin .b-user[id='844199'] {order: 1;}
+
+.b-clubs-menu .admin .b-user[id='583040'] .name::after {
+    content: 'Нэкомата 猫また';
+}
+.b-clubs-menu .admin .b-user[id='583040'] {order: 2;}
+
+.b-clubs-menu .admin .b-user[id='626523'] .name::after {
+    content: 'Мангуст マングース';
+}
+.b-clubs-menu .admin .b-user[id='626523'] {order: 3;}
+
+.b-clubs-menu .admin .b-user[id='49582'] .name::after {
+    content: 'Амэ-Отоко 雨男';
+}
+.b-clubs-menu .admin .b-user[id='49582'] {order: 4;}
+
+
+.b-clubs-menu .admin .b-user .name::after {
+    content: '';
+    display: block;
+    color: #997A8D;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.35;
+    text-align: left;
+}
+
+.block.m0 .cc-4.admin {display: flex; flex-direction: column};
+.b-clubs-menu .admin .b-user.named_avatar img {margin: 0};
+.b-clubs-menu .admin .b-user.named_avatar {width: 100%;}
+.b-clubs-menu .admin .b-user.named_avatar .avatar {width: 35px; margin-bottom: 0;} 
+.b-clubs-menu .admin .b-user.c-column.named_avatar {display: flex; align-items: center; width: 100%;}
+.b-clubs-menu .admin .b-user.named_avatar .name {margin: 0 0 0 23px; text-align: left;};
+.b-user.c-column.named_avatar:nth-child(odd) {background-color: red;}
+.b-comment header a.name:hover:after {
+    position: absolute;
+    content: none;
+    font-size: 11px;
+    padding: 4px 10px 4px 10px;
+    margin-top: -2px;
+    text-align: left;
+    margin-left: 6px;
+    color: white;
+    background: rgba(0,0,0,0.8) !important;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+    z-index: 1;
+    white-space: pre;
+}
+
+.cc-4.admin>.c-column:last-child {
+	margin-bottom: 15px !important;
+  	margin-right: 4% !important;
+}
