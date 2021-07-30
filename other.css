@@ -25,3 +25,59 @@
   	z-index: 31;
   }
 }
+/* Скрытие раздела топиков */
+.p-clubs-show > .l-page > div > .menu-slide-outer > .menu-slide-inner > .l-content > div:nth-child(4) {
+	display: none;
+}
+.p-clubs-show > .l-page > div > .menu-slide-outer > .menu-slide-inner > .l-content > div:nth-child(3) {
+	display: none;
+}
+
+/* Голосование */
+.b-poll .poll .name {
+    font-family: 'Tahoma', sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-size: 23px;
+    display: block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    color: #DF73FF;
+}
+
+.b-poll .poll {
+    text-align: left;
+    color: #FDF5E6;
+    padding: 15px 15px;
+    box-shadow: 5px 5px 7px -1px rgb(0 0 0 / 40%);
+    background-color: #FAFAFF;
+    background-image: url(https://i.pinimg.com/originals/ee/68/35/ee683518f3b13d1c79d13414070e96ce.gif);
+    background-position: center;
+    background-size: 123%;
+    background-repeat: no-repeat;
+}
+.b-clubs-menu .admin .b-user[id='888614'] .name, .b-clubs-menu .admin .b-user[id='888614'] .avatar {
+    display: none;
+}
+
+/* Пикчи */
+
+.p-clubs-show .container.packery {
+    overflow-x: scroll !important;
+    overflow-y: hidden;
+    height: 140px !important;
+    display: flex;
+}
+
+.p-clubs-show .container.packery .b-image {
+    position: relative !important;
+    left: unset !important;
+    top: unset !important;
+    height: 120px !important;
+    flex-shrink: 0;
+}
+
+.p-clubs-show .container.packery .b-image img {
+    height: 120px !important;
+}
