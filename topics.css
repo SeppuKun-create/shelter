@@ -93,3 +93,10 @@
   background-image: url(https://dere.shikimori.one/system/user_images/original/844199/1452439.jpg);
   background-position: center;
 }
+
+
+/* Баннеры для просмотренных тайтлов */
+.utsukushii_button .ub-button.ub-patema {
+  background-image: url(https://www.film.ru/sites/default/files/movies/frames/Sakasama-no-Patema-02.jpg);
+  background-position: center;
+}
