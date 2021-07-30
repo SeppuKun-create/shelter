@@ -81,3 +81,9 @@
 .p-clubs-show .container.packery .b-image img {
     height: 120px !important;
 }
+
+/*блок комментов старых топиков*/
+
+article[id="346617"] .editor-container {
+	display: none; 
+}
