@@ -1,0 +1,65 @@
+/* Кнопки и красивые топики */
+.utsukushii_button .ub-button {
+  padding: 35% 0 0 0;
+  background-image: url(https://moe.shikimori.one/system/user_images/original/583040/1452397.jpg);
+  background-size: cover;
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+.utsukushii_button .ub-button strong {
+    width: 100%;
+    display: block;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 7px 30px;
+    box-shadow: 0px 0px 10px 1px rgb(255 255 255 / 40%);
+}
+
+.utsukushii_button .ub-button:hover {
+	color: #C41E3A;
+}
+
+.utsukushii_button .ub-button.ub-video {
+  background-image: url(https://postium.ru/wp-content/uploads/2018/12/kartinka-na-video-dlya-youtube-kak-sdelat-696x392.jpg);
+  background-position: bottom;
+}
+
+.utsukushii_button .ub-button.ub-screens {
+  background-image: url(https://image.freepik.com/free-vector/vintage-camera-pop-art-cartoon_18591-3980.jpg);
+  background-position: center;
+}
+.utsukushii_button .ub-button.ub-ugadayka {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/844199/1480036.jpg);
+  background-position: bottom;
+}
+.utsukushii_button .ub-button.ub-openings {
+  background-image: url(https://cdn.myanimelist.net/s/common/uploaded_files/1449095170-34bb338bd8b01c9a9c6bb215a8065cd4.jpeg);
+  background-position: bottom;
+}
+.utsukushii_button .ub-button.ub-arts {
+  background-image: url(https://i.pinimg.com/originals/8b/55/79/8b5579c0016a4ef5042ace6ab059f11e.jpg);
+  background-position: center;
+}
+.utsukushii_button .ub-button.ub-merch {
+  background-image: url(https://images.satu.kz/140561835_w640_h640_statuetka-nezuko-na.jpg);
+  background-position: top;
+}
+.utsukushii_button .ub-button.ub-titles {
+  background-image: url(https://i.pinimg.com/originals/4e/ef/da/4eefda79569e24dba4043d689555d72d.jpg);
+  background-position: center;
+}
+.utsukushii_button .ub-button.ub-manga {
+  background-image: url(https://kitsunestudy.ru/wp-content/uploads/2020/03/sjejnen-500x367.jpg);
+  background-position: top;
+}
+.utsukushii_button .ub-button.ub-prosmotr {
+  background-image: url(http://pm1.narvii.com/5615/1d691784a1affd2a07ffad346b8ae43e6b4ad2ba_00.jpg);
+  background-position: center;
+}
+.utsukushii_button .ub-button.ub-fetish {
+  background-image: url(https://i.pinimg.com/originals/53/68/be/5368be8230cb95605239460c6713e022.jpg);
+  background-position: center;
+}
+.utsukushii_button .ub-button.ub-dis {
+  background-image: url(https://cdn.discordapp.com/attachments/812169181998612480/870005387628265502/undefined_-_Imgur.gif);
+  background-position: center;
+}
