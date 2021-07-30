@@ -1,0 +1,43 @@
+/* Главные стили спойлера */
+.utsukushii_spoiler>.b-spoiler_block.is-fullwidth>span {
+  background: url(https://media.giphy.com/media/AdtvZ8gu9gZ32/giphy.gif) !important;
+  background-size: cover !important;
+  padding: 48px 16px;
+  color: #FEE;
+  font-size: 24px;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+.utsukushii_spoiler>.b-spoiler_block.is-fullwidth>span::before {
+  top: unset;
+}
+
+.utsukushii_spoiler>.b-spoiler_block.is-fullwidth {
+  background-color: rgba(0,0,0,0.03);
+}
+
+.utsukushii_spoiler>.b-spoiler_block.is-fullwidth>div {
+  border-left: 1px silver solid;
+  padding: 8px 16px 16px 16px;
+  margin: 0;
+}
+
+/* Что внутри */
+@media (min-width: 1024px) { 
+.us-text {
+  width: 90%;
+  margin: auto;
+}
+}
+
+/* Кошкожена в кимоно версия */
+.utsukushii_spoiler.us-rin>.b-spoiler_block.is-fullwidth>span {
+	background: linear-gradient(0deg, rgba(0,0,0,0.8) 48px, rgba(255,255,255,0) 100px), url(https://desu.shikimori.one/system/user_images/original/844199/1499558.jpg) !important;
+  background-size: cover !important;
+  padding: calc(70% - 40px) 16px 16px 16px;
+  color: #ff2021;
+}
+.utsukushii_spoiler.us-rin>.b-spoiler_block.is-fullwidth>span:hover {
+  color: #FEE;
+}
