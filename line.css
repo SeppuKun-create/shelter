@@ -1,0 +1,40 @@
+/* Бегучка */
+
+.mychar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 60;
+  width: 100%;
+  height: 30px;
+  white-space: nowrap;
+}
+
+.mychar>.speech {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgb(242 242 242 / 80%);
+  animation-name: mychar-phrase;
+  animation-fill-mode: forward;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: var(--line-timing);
+  padding: 0 120%;
+  opacity: 0;
+}
+
+.mychar>.speech>div {
+	display: inline-block !important;
+	padding: 3px 20px 3px 20px;
+}
+
+@keyframes mychar-phrase {
+    0.001% {
+      opacity: 1;
+    }
+    100% {
+      left: var(--line-margin);
+      opacity: 1;
+    }
+}
