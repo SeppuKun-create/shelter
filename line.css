@@ -38,3 +38,8 @@
       opacity: 1;
     }
 }
+
+/* Остановка бегущей строки при наведении */
+.mychar:hover>.speech {
+ animation-play-state: paused;
+}
