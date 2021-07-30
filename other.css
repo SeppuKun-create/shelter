@@ -1,0 +1,27 @@
+/* Скрываем контент от тех, кто со стилями (для Рин это) */
+.fc-hidden {
+	display: none;
+}
+/* Фикс верхнего меню */
+.l-top_menu-v2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.l-page {
+  margin-top: 46px;
+}
+/* Фикс цитат нового редактора */
+.b-quote-v2::before {
+	content: none;
+}
+/* Фикс наезда редактора на меню */
+.l-page .menu-toggler {
+	z-index: 32;
+}
+@media (max-width: 1024px) {
+  .l-menu {
+  	z-index: 31;
+  }
+}
