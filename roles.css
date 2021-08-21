@@ -1,11 +1,3 @@
-/* Ram Ranch */
-.b-comment[data-user_id="185793"]:not(.tooltipped) header a.name:hover:after {
-    content: "Каонаси カオナシ";
-}
-.b-comment[data-user_id="185793"]:not(.tooltipped) header a.name, .b-user[id="185793"] a.name {
-  	color: #7080D7;
-}
-
 /* Klámköttur */
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name:hover:after {
     content: "Нэкомата 猫また";
@@ -18,29 +10,11 @@
 /* SeppuKun */
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name:hover:after {
     content: "Оками 狼";
-    color: #DE3163;
+    color: #d885d1;
 }
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name, .b-user16>img[src*="844199.png"]+span {
-    color: #DE3163;
+    color: #d885d1;
 }
-
-/* Raingisu */
-.b-comment[data-user_id="49582"]:not(.tooltipped) header a.name:hover:after {
-    content: "Амэ Отоко 雨男";
-    color: #bdbdbd
-}
-.b-comment[data-user_id="49582"]:not(.tooltipped) header a.name, .b-user[id="49582"] a.name, .b-user16>img[src*="49582.png"]+span {
-    color: #363636;
-}
-
-/* Цуёи Ито */
-.b-comment[data-user_id="66344"]:not(.tooltipped) header a.name:hover:after {
-    content: "Идзанами イザナミ";
-}
-.b-comment[data-user_id="66344"]:not(.tooltipped) header a.name, .b-user[id="66344"] a.name, .b-user16>img[src*="66344.png"]+span {
-    color: #4671D5;;
-}
-
 /* マ croissant マ */
 .b-comment[data-user_id="718383"]:not(.tooltipped) header a.name:hover:after {
     content: "Хатакэ はたけ";
@@ -98,15 +72,6 @@
     content: "Демон обмана";
     color: #BC8F8F
 }
-
-/* Iki Hiyori */
-.b-comment[data-user_id="840725"]:not(.tooltipped) header a.name:hover:after {
-    content: "Икирё 生霊";
-    color: #9966CC
-}
-.b-comment[data-user_id="840725"]:not(.tooltipped) header a.name, .b-user[id="840725"] a.name, .b-user16>img[src*="840725.png"]+span {
-    color: #da70d6;
-}
 /* Daria Aki */
 .b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after {
     content: "Кусезависимая милаха";
@@ -152,21 +117,10 @@
 .b-comment[data-user_id="626523"]:not(.tooltipped) header a.name, .b-user[id="626523"] a.name, .b-user16>img[src*="626523.png"]+span {
     color: 	crimson;
 }
-
-/* Ривнус */
-.b-comment[data-user_id="658841"]:not(.tooltipped) header a.name:hover:after {
-    content: "ВРАЧ. ПСИХИАТР. Гроза ведомых. Кто в танке - это РИНУС!";
-}
 /* "Чей-то" твинк призрак */
 .b-comment[data-user_id="927831"]:not(.tooltipped) header a.name:hover:after {
     content: "Призрак";
 }
-
-/* Whimelan */
-.b-comment[data-user_id="383372"]:not(.tooltipped) header a.name, .b-user[id="383372"] a.name {
-    color: purple;
-}
-
 /* ZeroTwoo */
 .b-comment[data-user_id="857033"]:not(.tooltipped) header a.name, .b-user[id="857033"] a.name {
     color: #FB7BF0;;
@@ -187,10 +141,6 @@
 /* SMOKE */
 .b-comment[data-user_id="154783"]:not(.tooltipped) header a.name:hover:after {
     content: "Биг Смоук-сан 大きな煙さん";
-}
-/* русский кот */
-.b-comment[data-user_id="544071"]:not(.tooltipped) header a.name:hover:after {
-    content: "Воняет в оффтопе, но иногда приходит сюда. Влюблена в Ринуса";
 }
 /* Пакетик */
 .b-comment[data-user_id="945135"]:not(.tooltipped) header a.name:hover:after {
