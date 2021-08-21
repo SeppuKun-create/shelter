@@ -3,11 +3,11 @@ font-size: 35px;
 line-height: 43px;
 font-family: Verdana, sans-serif;
 font-weight: 900;
-color: #fff;
+color: red;
 position: relative;
 text-transform: uppercase;
 text-decoration: line-through;
-text-shadow: 1px 1px 2px grey, 0 0 7px #831e74;
+text-shadow: 1px 1px 2px pink, 0 0 7px #831e74;
 padding: 0 10px;
 }
 
@@ -16,11 +16,11 @@ content: '旅行者の Пристанище';
 animation: glitch 2s infinite linear alternate-reverse;
 background: transparent;
 clip: rect( 0, 900px, 0, 0 );
-color: grey;
+color: pink;
 left: 17px;
 overflow: hidden;
 position: absolute;
-text-shadow: 1px 1px 2px grey;
+text-shadow: 1px 1px 2px pink;
 top: 0;
 opacity: .5;
 pointer-events: none;
@@ -31,11 +31,11 @@ content: '旅行者の Пристанище';
 animation: glitch--second 1s infinite linear alternate-reverse;
 background: transparent;
 clip: rect( 0, 900px, 0, 0 );
-color: grey ;
+color: pink ;
 left: 8px;
 overflow: hidden;
 position: absolute;
-text-shadow: 1px 0 grey;
+text-shadow: 1px 0 black;
 top: 0;
 pointer-events: none;
 opacity: .5;
@@ -173,17 +173,15 @@ clip: rect(38px, 9999px, 49px, 0);
 }
 }
 
-/*
 .p-clubs:not(#clubs_show) header.head h1:before, .p-clubs:not(#clubs_show) header.head h1:after {
 left: 67px;
 }
-*/
 
 header.head h1 a.back {
   position: absolute;
   left: -34px;
 }
 
-.p-clubs:not(#clubs_show) header.head h1 {
-  margin-left: 34px;
+.p-clubs:not(#clubs_show) header.head h1::before, .p-clubs:not(#clubs_show) header.head h1::after {
+    left: 15px;
 }
