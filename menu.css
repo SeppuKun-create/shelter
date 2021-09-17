@@ -1,0 +1,173 @@
+.zero-line {
+  line-height: 0;
+}
+
+.u-menu .left-row .b-link_button {
+  text-align: left !important;
+  background: none !important;
+  border: none !important;
+  padding: 10px 10px !important;
+  margin-bottom: 2px !important;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.u-menu .left-row .b-link_button:hover {
+  background: rgba(150, 150, 150, 0.2)!important;
+  border-radius: 8px;
+  color: black;
+  text-decoration: none !important;
+}
+
+.u-menu-cat_name {
+  font-weight: bold;
+  color: var(--color-text-secondary);
+  font-size: 16px;
+}
+
+.u-menu_memo {
+  position: absolute;
+  z-index: 10;
+  background: #000E;
+  padding: 6px 20px;
+  border-radius: 0px 8px 0px 8px;
+  right: 10px;
+}
+
+
+@media only screen and (min-width: 728px) {
+  .u-menu.cc-3_2 > .left-row.c-column:first-child {
+    margin-right: 0;
+    width: 28%;
+    background-image: url(https://moe.shikimori.one/system/user_images/original/583040/1606221.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 0px 8px 8px 0px;
+  }
+
+  .u-menu.cc-3_2 > .right-row.c-column:last-child:not(:first-child) {
+    width: 72%;
+  }
+
+  .u-menu.cc-3_2 > .right-row.c-column:last-child:not(:first-child):last-child {
+    margin-bottom: 0px !important;
+    padding: 0px 0px 10px 10px;
+  }
+
+  .u-menu .left-row .b-link_button {
+    text-align: left !important;
+    background: none !important;
+    border: none !important;
+    padding: 10px 10px !important;
+    margin-bottom: 2px !important;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0), 0px 0px 2px rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    transition: 0.5s background;
+  }
+
+  .u-menu .left-row .b-link_button:hover {
+    background: linear-gradient(179deg, rgba(0,0,0,0.6) 56%, rgb(130, 22, 193) 69%, rgba(253,29,204,0.9760855025603992) 73%, rgba(3,34,6,0.6) 78%, rgba(0,0,0,0.6) 100%) !important;
+    color: white;
+  }
+
+  .u-menu.cc-3_2 > .left-row.c-column:first-child .left-row_inner {
+    padding: 10px; 
+    background: #0009;
+    height: 100%;
+  }
+
+  .u-menu.cc-3_2 > .left-row.c-column:first-child .left-row_inner {
+    background: #0005;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+  }
+
+  .u-menu-cat_name {
+    text-shadow: 0px 0px 3px rgb(0, 0, 0), 0px 0px 3px rgb(0, 0, 0), 0px 0px 3px rgb(0, 0, 0);
+    color: #EEE;
+  }
+
+  .u-menu_memo {
+    right: 0px;
+  }
+  
+  .u-menu .left-row .b-link_button {
+    text-shadow: 0px 0px 2px rgb(0, 0, 0), 0px 0px 2px rgb(0, 0, 0);
+  }
+}
+
+.u-menu.cc-3_2 > .left-row.c-column:first-child {
+  padding: 0px;
+}
+
+.u-menu.cc-3_2 > .left-row.c-column:first-child .left-row_inner {
+  padding: 10px; 
+  height: 100%;
+}
+
+
+.u-menu.cc-3_2 > .right-row.c-column:last-child:not(:first-child) {
+  padding: 0px 10px 10px 10px;
+  background: var(--color-background);
+}
+
+.u-button-2 {
+  padding: 30% 0 0 0;
+  background-image: url(//moe.shikimori.one/system/user_images/original/583040/1452397.jpg);
+  background-size: cover;
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: filter 0.5s;
+}
+
+.u-button-2:hover {
+  filter: brightness(0.8) drop-shadow(1px 1px 1px black);
+
+}
+
+.u-button-2 .u-button-2-name {
+  width: 200px;
+  display: block;
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  padding: 7px 30px;
+  position: absolute;
+  bottom: -15px;
+  left: 5%;
+  border-radius: 10px;
+  max-width: 90%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.u-button-2 .u-button-2-name:hover {
+  color: #ff7dd8;
+  background: linear-gradient(179deg, rgba(0, 0, 0, 0.9) 56%, rgba(130, 22, 193, 0.4) 69%, rgba(253,29,204,0.97) 73%, rgba(3,34,6,0.6) 78%, rgba(0, 0, 0, 0.9) 100%) !important;
+}
+
+.u-button-2:hover .u-button-2-name {
+  color: #ff7dd8;
+  background: linear-gradient(179deg, rgba(0, 0, 0, 0.9) 56%, rgba(130, 22, 193, 0.4) 69%, rgba(253,29,204,0.97) 73%, rgba(3,34,6,0.6) 78%, rgba(0, 0, 0, 0.9) 100%) !important;
+}
+
+.u-button-2 .b-link_button {
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+}
+
+.u-menu {
+  position: relative;
+}
+
+.u-button-2.ub2-discord {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/583040/1606494.jpg);
+  background-size: cover;
+}
+
+.u-button-2.ub2-news {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/583040/1606243.jpg);
+  background-size: cover;
+}
