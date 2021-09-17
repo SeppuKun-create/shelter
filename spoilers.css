@@ -33,10 +33,10 @@
 
 /* Кошкожена в кимоно версия */
 .utsukushii_spoiler.us-rin>.b-spoiler_block.is-fullwidth>span {
-	background: linear-gradient(0deg, rgba(0,0,0,0.8) 48px, rgba(255,255,255,0) 100px), url(https://desu.shikimori.one/system/user_images/original/844199/1499558.jpg) !important;
+	background: linear-gradient(0deg, rgba(0,0,0,0.8) 48px, rgba(255,255,255,0) 100px), var(--main-poster) !important;
   background-size: cover !important;
-  padding: calc(57% - 40px) 16px 16px 16px;
-  color: #ff2021;
+  padding: calc(var(--main-poster-height) - 40px) 16px 16px 16px;
+  color: #ff7dd8;
 }
 .utsukushii_spoiler.us-rin>.b-spoiler_block.is-fullwidth>span:hover {
   color: #FEE;
