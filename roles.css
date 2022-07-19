@@ -10,7 +10,7 @@
 /* SeppuKun */
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name:hover:after {
     content: "Оками 狼";
-    color: #1fbb8c;
+    color: #pink;
 }
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name, .b-user16>img[src*="844199.png"]+span {
     color: #1fbb8c;
