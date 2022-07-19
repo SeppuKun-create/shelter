@@ -7,7 +7,7 @@
     content: 'Нэкомата 猫また';
 }
 .b-clubs-menu .admin .b-user[id='583040'] {order: 2;}
-
+}
 
 .b-clubs-menu .admin .b-user .name::after {
     content: '';
