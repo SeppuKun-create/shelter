@@ -8,16 +8,6 @@
 }
 .b-clubs-menu .admin .b-user[id='583040'] {order: 2;}
 
-.b-clubs-menu .admin .b-user[id='626523'] .name::after {
-    content: 'Мангуст マングース';
-}
-.b-clubs-menu .admin .b-user[id='626523'] {order: 3;}
-
-.b-clubs-menu .admin .b-user[id='49582'] .name::after {
-    content: 'Амэ-Отоко 雨男';
-}
-.b-clubs-menu .admin .b-user[id='49582'] {order: 4;}
-
 
 .b-clubs-menu .admin .b-user .name::after {
     content: '';
