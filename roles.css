@@ -10,10 +10,10 @@
 /* SeppuKun */
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name:hover:after {
     content: "Оками 狼";
-    color: #f4abff;
+    color: pink;
 }
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name, .b-user16>img[src*="844199.png"]+span {
-    color: #f4abff;
+    color: pink;
 }
 /* マ croissant マ */
 .b-comment[data-user_id="718383"]:not(.tooltipped) header a.name:hover:after {
