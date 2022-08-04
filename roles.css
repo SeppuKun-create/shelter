@@ -49,7 +49,6 @@
 .b-comment[data-user_id="85743"]:not(.tooltipped) header a.name, .b-user[id="85743"] a.name, .b-user16>img[src*="85743.png"]+span {
     color: #ff32cb;
 }
-}
 /* 7ГРЕХОВ */
 .b-comment[data-user_id="717829"]:not(.tooltipped) header a.name:hover:after {
     content: "Грешница";
