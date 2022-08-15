@@ -12,7 +12,7 @@ padding: 0 10px;
 }
 
 .p-clubs header.head h1:after {
-content: 'ネプチューン Neptu';
+content: '太陽 Taiyo';
 animation: glitch 2s infinite linear alternate-reverse;
 background: transparent;
 clip: rect( 0, 900px, 0, 0 );
@@ -27,7 +27,7 @@ pointer-events: none;
 }
 
 .p-clubs header.head h1:before {
-content: 'ネプチューン Neptu';
+content: '太陽 Taiyo';
 animation: glitch--second 1s infinite linear alternate-reverse;
 background: transparent;
 clip: rect( 0, 900px, 0, 0 );
