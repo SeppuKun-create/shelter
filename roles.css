@@ -7,13 +7,13 @@
   	color: crimson;
 }
 
-/* SeppuKun */
+/* ReiSei*/
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name:hover:after {
     content: "Рэйсэй";
-    color: #74c8fc;
+    color: #00ab9d;
 }
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name, .b-user16>img[src*="844199.png"]+span {
-    color: #74c8fc;
+    color: #00ab9d;
 }
 /* マ croissant マ */
 .b-comment[data-user_id="718383"]:not(.tooltipped) header a.name:hover:after {
